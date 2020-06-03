@@ -9,6 +9,7 @@ parametros = dict(
     database='agenda'
 )
 
+
 @contextmanager
 def nova_conexao():
     conexao = connect(**parametros)
